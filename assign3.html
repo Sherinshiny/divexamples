@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div styling</title>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            #box{
+                height:400px;
+                width:50%;
+                border:1px solid black;
+               
+            }
+            #top{
+                height:200px;
+                width:100%;
+                border:1px solid black; 
+                
+            }
+            
+            #bottom{
+                height:200px;
+                width:100%;
+                border:1px solid black;
+                background-color:palegreen; 
+                
+               
+                
+            }
+            #leftPart{
+                height:100%;
+                width:50%;
+                border:1px solid black;  
+                background-color:maroon;
+                float:left;
+               
+               
+            
+            }
+           
+            #rightPart{
+                height:100%;
+                width:50%;
+                border:1px solid black;  
+                float:left;
+                background-color:lightcoral;
+                
+               
+                
+               
+            
+            }
+            #leftMiddlePart{
+                height:10%;
+                width:10%;
+                border:1px solid black;  
+                background-color:white;
+                margin-top:50px;
+                margin: auto;
+                
+               
+            }
+            #rightMiddlePart{
+                height:10%;
+                width:10%;
+                border:1px solid black;  
+                background-color:white;
+               
+                margin: auto;
+                
+                
+            }
+            #bottomMiddlePart{
+                height:10%;
+                width:10%;
+                border:1px solid black;  
+                background-color:white;
+               
+                margin: auto;
+               
+                
+            }
+            p{
+                text-align:center ;
+                color:white;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+            <div id="box">
+            <div id="top">
+                <div id="leftPart">
+                    <div id="leftMiddlePart"><h1 style="text-align: center;">IMAGE 1</h1></div>
+                    <p>Div </p>
+                </div>
+                <div id="rightPart">
+                    <div id="rightMiddlePart"><h1 style="text-align: center;">IMAGE 2</h1></div>
+                    <p>Div 2<br>Text center</p>
+                </div>
+            </div>
+            <div id="bottom"><p>Div 3<br>Text center</p>
+                    <div id="bottomMiddlePart"><h1 style="text-align: center;">IMAGE 3</h1></div>
+            </div>
+        </div>
+    </body>
+</html>

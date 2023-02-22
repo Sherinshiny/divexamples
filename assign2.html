@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div styling</title>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            #box{
+                height:500px;
+                width:50%;
+                border:1px solid black;
+            }
+            #top{
+                height:100px;
+                width:100%;
+                border:1px solid black; 
+                background-color:gold;
+            }
+            #middle{
+                height: 300px;
+                width:100%;
+                border:1px solid black; 
+            }
+            #bottom{
+                height:100px;
+                width:100%;
+                border:1px solid black;
+                background-color:orangered; 
+            }
+            #leftPart{
+                height:100%;
+                width:20%;
+                border:1px solid black;  
+                background-color:aqua;
+                float:left;
+            
+            }
+                                
+            #rightPart{
+                height:100%;
+                width:80%;
+                border:1px solid black;  
+                float:left;
+                
+            
+            }
+            #rightTopPart{ 
+                height:30%;
+                width:100%;
+                border:1px solid black; 
+                background-color:plum; 
+               
+
+            }
+             #rightBottomPart{
+                height:70%;
+                width:100%;
+                border:1px solid black; 
+            
+
+            }
+           #rightBottomLeft{
+                height:100%;
+                width:70%;
+                border:1px solid black;
+                 background-color:yellow;
+                float:left;
+
+
+            }
+            #rightBottomRight{
+                height:100%;
+                width:30%;
+                border:1px solid black;
+                 background-color:lightskyblue;
+                float:left;
+
+
+            }
+
+        </style>
+    </head>
+    <body>
+            <div id="box">
+            <div id="top"><p style="text-align: center;">minor</p></div>
+            <div id="middle">
+                <div id="leftPart"> <p style="text-align: center;">content</p></div>
+                <div id="rightPart">
+                    <div id="rightTopPart"><p style="text-align: center;">desk</p> </div>
+                    <div id="rightBottomPart"> 
+                        <div id="rightBottomLeft"><p style="text-align: center;">shelf</p></div>
+                        <div id="rightBottomRight"><p style="text-align: center;">block</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="bottom"><p style="text-align: center;">major</p></div>
+
+    </body>
+</html>
